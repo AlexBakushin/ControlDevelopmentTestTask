@@ -68,5 +68,10 @@ DELETE /bookings/{id}
 * PostgreSQL — основная БД
 * idempotency через проверку статуса брони
 
+### Тестирование
+```bash
+pytest -q
+```
+
 
 
